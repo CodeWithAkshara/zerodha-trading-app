@@ -6,7 +6,7 @@ import GeneralContext from "./GeneralContext";
 import "./BuyActionWindow.css";
 
 const BuyActionWindow = ({ uid }) => {
-  const { closeBuyWindow } = useContext(GeneralContext); // ✅ Correct placement
+  const { closeBuyWindow } = useContext(GeneralContext);
 
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
@@ -19,12 +19,12 @@ const BuyActionWindow = ({ uid }) => {
         price: stockPrice,
         mode: "BUY",
       })
-      .then(() => closeBuyWindow()) // ✅ Correct
+      .then(() => closeBuyWindow())
       .catch((err) => console.log(err));
   };
 
   const handleCancelClick = () => {
-    closeBuyWindow(); // ❌ removed GeneralContext.closeBuyWindow()
+    closeBuyWindow();
   };
 
   return (

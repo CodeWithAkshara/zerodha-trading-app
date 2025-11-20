@@ -35,6 +35,3 @@ Context API — global state management
 Axios — API handling
 
 Node + Express + MongoDB (optional backend integration)
-
-If you want, I can also add:
-✅ Installation steps

@@ -9,6 +9,7 @@ A clean, modern, and highly interactive Zerodha-inspired trading dashboard built
 - 📊 Advanced Interactive Charts (Recharts)
 
     • Vertical Bar Chart → Watchlist performance
+  
     • Donut/Pie Chart → Holdings allocation
 
 - 💹 Market Watch & Stock Cards (mock real-time feel)

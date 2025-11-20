@@ -1,8 +1,8 @@
-⚡ Zerodha Clone — Trading Dashboard UI
+# ⚡ Zerodha Clone — Trading Dashboard UI
 
 A clean, modern, and highly interactive Zerodha-inspired trading dashboard built to strengthen frontend development skills. Designed with a real trading-platform feel, featuring charts, stock cards, and a multi-page dashboard — ideal for learning, practice, and portfolio showcasing.
 
-✨ Key Features
+## ✨ Key Features
 
 🔐 User Authentication (demo login & signup)
 
@@ -22,7 +22,7 @@ Donut/Pie Chart → Holdings allocation
 
 🧩 Clean component structure for easy scalability
 
-🛠️ Tech Stack
+ ## 🛠️ Tech Stack
 
 React JS — SPA + reusable components
 

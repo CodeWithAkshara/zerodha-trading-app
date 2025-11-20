@@ -4,34 +4,34 @@ A clean, modern, and highly interactive Zerodha-inspired trading dashboard built
 
 ## ✨ Key Features
 
-🔐 User Authentication (demo login & signup)
+- 🔐 User Authentication (demo login & signup)
 
-📊 Advanced Interactive Charts (Recharts)
+- 📊 Advanced Interactive Charts (Recharts)
 
-Vertical Bar Chart → Watchlist performance
+ Vertical Bar Chart → Watchlist performance
 
-Donut/Pie Chart → Holdings allocation
+ Donut/Pie Chart → Holdings allocation
 
-💹 Market Watch & Stock Cards (mock real-time feel)
+- 💹 Market Watch & Stock Cards (mock real-time feel)
 
-📁 Dedicated Screens: Orders, Positions, Holdings, Funds
+- 📁 Dedicated Screens: Orders, Positions, Holdings, Funds
 
-⚡ Smooth & Fast React UI
+- ⚡ Smooth & Fast React UI
 
-📱 Fully Responsive Layout for all devices
+- 📱 Fully Responsive Layout for all devices
 
-🧩 Clean component structure for easy scalability
+- 🧩 Clean component structure for easy scalability
 
  ## 🛠️ Tech Stack
 
-React JS — SPA + reusable components
+- React JS — SPA + reusable components
 
-React Router — multi-page navigation
+- React Router — multi-page navigation
 
-Recharts — professional-grade charts
+- Recharts — professional-grade charts
 
-Context API — global state management
+- Context API — global state management
 
-Axios — API handling
+- Axios — API handling
 
 Node + Express + MongoDB (optional backend integration)

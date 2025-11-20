@@ -6,13 +6,9 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
-const { PositionsModel } = require("./models/PositionsModel");
-const { HoldingsModel } = require("./models/HoldingsModel");
-const { OrdersModel } = require("./models/OrdersModel");
-console.log("Server index.js loaded");
-console.log("Loading AuthRoute...");
-const authRoute = require("./Routes/AuthRoute.js");
-console.log("AuthRoute import DONE");
+const { PositionsModel } = require("./Models/PositionsModel");
+const { HoldingsModel } = require("./Models/HoldingsModel");
+const { OrdersModel } = require("./Models/OrdersModel");
 
 const PORT = process.env.PORT || 3000;
 const URL = process.env.MONGO_URL;
@@ -23,13 +19,6 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(express.json());
 
-app.use(
-  cors({
-    origin: ["http://localhost:3001"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
-  })
-);
 
 app.get("/allHoldings", async (req, res) => {
   const allHoldings = await HoldingsModel.find({});

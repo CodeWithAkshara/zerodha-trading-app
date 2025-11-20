@@ -1,0 +1,90 @@
+
+/* Wrapper to center the signup box */
+.signup_wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(143, 187, 204, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  padding: 40px 0;
+}
+
+/* Form container */
+.form_container {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 8px 8px 24px rgba(66, 68, 90, 0.3);
+}
+
+.form_container > h2 {
+  margin-block: 1rem;
+  padding-block: 0.6rem;
+  color: rgba(0, 212, 255, 1);
+  font-size: 1.8rem;
+}
+
+.form_container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.form_container div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+label {
+  font-size: 1.1rem;
+  color: #656262;
+}
+
+.form_container input {
+  border: none;
+  padding: 0.6rem;
+  border-bottom: 1px solid gray;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form_container input::placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.form_container button {
+  background-color: rgba(0, 212, 255, 1);
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  transition: 0.2s ease-in;
+}
+
+.form_container button:hover {
+  background-color: rgb(10, 165, 210);
+}
+
+.form_container span {
+  font-size: 0.9rem;
+}
+
+.form_container span a {
+  text-decoration: none;
+  color: rgb(0, 174, 255);
+  font-weight: bold;
+}
